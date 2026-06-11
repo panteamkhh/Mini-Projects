@@ -1,19 +1,24 @@
-## 🧠 Core Python Track
+# 🧩 Mini Projects
 
-This section focuses on building strong programming fundamentals using Python.
+This repository contains my **hands-on learning projects** across Python, SQL, Excel, and Power BI.
 
-### Key Topics Covered
+The goal of this repo is to build strong fundamentals through small, practical implementations and daily coding practice.
 
-- Variables and data types
-- Conditionals and loops
-- Functions and logic building
-- GUI development using Tkinter
-- File handling and JSON persistence
+---
 
 ## 🎯 Purpose
 
-- Strengthen Python fundamentals
-- Build real mini-projects instead of only exercises
-- Learn how to structure projects properly for GitHub
-- Prepare for data/AI engineering path
+- Strengthen core programming and analytical skills
+- Practice real-world logic in small, focused projects
+- Build consistency through daily coding
+- Prepare for advanced portfolio-level projects
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 🐍
+- SQL 🗄️
+- Microsoft Excel 📊
+- Power BI 📈
 
