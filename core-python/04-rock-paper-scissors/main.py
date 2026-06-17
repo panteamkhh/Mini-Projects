@@ -1,50 +1,93 @@
 import random
 
+# Display game rules
+def show_rules():
+    print("Rock beats Scissors")
+    print("Scissors beats Paper")
+    print("Paper beats Rock")
+    print()
+
+
+# Determine the winner of a round
+def get_winner(user_choice, pc_choice):
+
+    # Check for a draw
+    if user_choice == pc_choice:
+        return "draw"
+
+    # Check if the user wins
+    elif (
+        (user_choice == "rock" and pc_choice == "scissors")
+        or (user_choice == "paper" and pc_choice == "rock")
+        or (user_choice == "scissors" and pc_choice == "paper")
+    ):
+        return "user"
+
+    # Otherwise, the PC wins
+    return "pc"
+
+
 # Available choices in the game
 choices = ["rock", "paper", "scissors"]
 
-# Score tracking
+# Initialize scores
 user_score = 0
 pc_score = 0
 
-# Main game loop (runs until user exits)
-while True:
+# Show game rules
+show_rules()
+
+# Play exactly three rounds
+for round_number in range(1, 4):
+
+    # Display current round
+    print(f"\nRound {round_number}")
+
     # Get user input
-    user_choice = input("Enter your choice: rock, paper, scissors ")
+    user_choice = input(
+        "Enter your choice (rock, paper, scissors): "
+    ).lower()
 
-    # Exit condition
-    if user_choice == "exit":
-        break
+    # Validate user input
+    while user_choice not in choices:
+        print("Invalid choice!")
+        user_choice = input(
+            "Enter your choice (rock, paper, scissors): "
+        ).lower()
 
-    # Validate input
-    if user_choice not in choices:
-        print("Invalid choice")
-        continue
-   
-    # Computer random choice
+    # Generate PC choice
     pc_choice = random.choice(choices)
 
-    # Draw condition
-    if user_choice == pc_choice:
-        print("Draw")
+    print(f"PC chose: {pc_choice}")
 
-    # User win condition
-    elif (
-        (user_choice == "rock" and pc_choice =="scissors") or
-        (user_choice == "paper" and pc_choice =="rock") or
-        (user_choice == "scissors" and pc_choice =="paper")
-           ):
-        print("you win the game")
+    # Determine round winner
+    winner = get_winner(user_choice, pc_choice)
+
+    # Handle draw result
+    if winner == "draw":
+        print("Draw!")
+
+    # Handle user win
+    elif winner == "user":
+        print("You win this round!")
         user_score += 1
 
-    # User lose condition
+    # Handle PC win
     else:
-        print("you lose the game")
+        print("PC wins this round!")
         pc_score += 1
 
-    # Display score
-    print(f"Score => You: {user_score} | Computer: {pc_score}")
+    # Display current score
+    print(f"Score => You: {user_score} | PC: {pc_score}")
 
-    # End of game
-    print("Game Over")
-    print(f"Final Score => You: {user_score} | Computer: {pc_score}")
+# Display final result
+print("\nFinal Result")
+
+if user_score > pc_score:
+    print("You Win The Match!")
+
+elif pc_score > user_score:
+    print("PC Wins The Match!")
+
+else:
+    print("The Match Is A Draw!")
