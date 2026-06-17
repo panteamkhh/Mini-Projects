@@ -1,34 +1,43 @@
-# Todo App 
+# Todo App (CLI - Python)
 
 A simple and efficient command-line Todo application built with Python.
 
-This project allows users to manage their daily tasks directly from the terminal with an easy-to-use menu system.
+This project helps users manage their daily tasks directly from the terminal using a clean menu-driven interface.
 
 ---
 
-## Features
+##  Features
 
 - Add new tasks
-- View all tasks
-- Mark tasks as completed
+- View all tasks with status (✔ / ❌)
+- Mark tasks as completed / uncompleted (toggle)
 - Delete tasks
+- Persistent storage using JSON (tasks are saved automatically)
 - Exit application safely
-- In-memory task storage using Python lists
 
 ---
 
-## Key Concepts Used
+##  Key Concepts Used
 
-- Loops (`while`)
+- Loops (`while True`)
 - Conditional statements (`if / elif / else`)
-- Lists for data storage
-- Functions (modular structure)
-- User input handling
-- Basic CLI design
+- Lists and Dictionaries (data modeling)
+- Boolean state management (`True / False`)
+- File handling (`json`)
+- CRUD operations (Create, Read, Update, Delete)
+- CLI (Command Line Interface) design
+
+---
+
+##  Data Persistence
+
+Tasks are stored in a local JSON file:
+
+This allows your tasks to remain saved even after closing the program.
 
 ---
 
 ##  How to Run
 
 ```bash
-python todo.py
+python main.py
