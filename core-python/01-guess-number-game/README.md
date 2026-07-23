@@ -1,12 +1,30 @@
-# Guess Number Game 
+# Day 1 - Guess the Number Game
 
-A simple Python game where the computer generates a random number between 1 and 100, and the user tries to guess it.
+A command-line number guessing game. The program picks a random number
+and the player tries to guess it, receiving "too high" / "too low" hints
+after each guess.
 
-## How it works
-- The program generates a random number
-- User enters a guess
-- Program tells if it's too high, too low, or correct
+## What I learned
+- Basic control flow (`while`, `if/elif/else`)
+- Handling invalid input with `try/except`
+- Structuring simple game logic inside a class (`GuessNumberGame`)
 
-## Run
+## How to run
 ```bash
 python main.py
+```
+
+## How to test
+```bash
+pytest test_main.py
+```
+
+## Example
+```
+Guess a number between 1 and 100: 50
+Too high!
+Guess a number between 1 and 100: 25
+Too low!
+Guess a number between 1 and 100: 37
+Congratulations! You guessed it in 3 attempt(s).
+```
