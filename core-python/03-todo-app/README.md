@@ -37,7 +37,13 @@ This allows your tasks to remain saved even after closing the program.
 
 ---
 
-##  How to Run
-
+## How to run
 ```bash
 python main.py
+```
+
+## How to test
+```bash
+pytest test_main.py
+```
+
