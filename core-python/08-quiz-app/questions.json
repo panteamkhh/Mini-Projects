@@ -1,0 +1,7 @@
+[
+  {"text": "What does 'HTML' stand for?", "options": ["Hyper Text Markup Language", "High Tech Modern Language", "Home Tool Markup Language"], "answer": 0},
+  {"text": "Which data type is immutable in Python?", "options": ["list", "dict", "tuple"], "answer": 2},
+  {"text": "What symbol is used for comments in Python?", "options": ["//", "#", "--"], "answer": 1},
+  {"text": "Which keyword defines a function in Python?", "options": ["func", "def", "function"], "answer": 1},
+  {"text": "What does 'len()' do?", "options": ["Returns the length of an object", "Deletes an object", "Sorts a list"], "answer": 0}
+]
