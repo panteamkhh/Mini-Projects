@@ -45,3 +45,19 @@ save_history()
 
 def format_calculation(num1, num2, operation, result):
     return f"{num1:g} {operation} {num2:g} = {result:g}"
+
+def _load_history_into_ui(self):
+    for item in self.history:
+        self.listbox_history.insert(tk.END, self._history_to_text(item))
+
+
+@staticmethod
+def _history_to_text(item):
+    return format_calculation(
+        item["num1"],
+        item["num2"],
+        item["operation"],
+        item["result"],
+    )        
+
+self._load_history_into_ui()
