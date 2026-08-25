@@ -18,5 +18,3 @@ python main.py
 ```bash
 pytest test_main.py
 ```
-(Only the calculation logic is unit-tested; the UI is not covered by
-automated tests here.)
