@@ -1,23 +1,63 @@
-"""Unit tests for the Calculator logic (UI is not tested here)."""
+"""
+Unit tests for the calculation logic in main.py.
+
+Only the Calculator class is tested here (pure logic, no UI).
+The HistoryManager and CalculatorApp (tkinter UI) are not covered
+by automated tests in this file.
+"""
+
+import pytest
 
 from main import Calculator
 
 
-def test_add():
-    assert Calculator.calculate(4, 5, "Add") == 9
+class TestCalculatorAdd:
+    def test_add_positive_numbers(self):
+        assert Calculator.calculate(2, 3, "Add") == 5
+
+    def test_add_negative_numbers(self):
+        assert Calculator.calculate(-2, -3, "Add") == -5
+
+    def test_add_with_zero(self):
+        assert Calculator.calculate(5, 0, "Add") == 5
 
 
-def test_subtract():
-    assert Calculator.calculate(10, 4, "Subtract") == 6
+class TestCalculatorSubtract:
+    def test_subtract_positive_numbers(self):
+        assert Calculator.calculate(5, 3, "Subtract") == 2
+
+    def test_subtract_resulting_in_negative(self):
+        assert Calculator.calculate(3, 5, "Subtract") == -2
 
 
-def test_multiply():
-    assert Calculator.calculate(3, 3, "Multiply") == 9
+class TestCalculatorMultiply:
+    def test_multiply_positive_numbers(self):
+        assert Calculator.calculate(4, 3, "Multiply") == 12
+
+    def test_multiply_by_zero(self):
+        assert Calculator.calculate(4, 0, "Multiply") == 0
+
+    def test_multiply_negative_numbers(self):
+        assert Calculator.calculate(-4, 3, "Multiply") == -12
 
 
-def test_divide():
-    assert Calculator.calculate(10, 2, "Divide") == 5
+class TestCalculatorDivide:
+    def test_divide_positive_numbers(self):
+        assert Calculator.calculate(10, 2, "Divide") == 5
+
+    def test_divide_resulting_in_float(self):
+        assert Calculator.calculate(5, 2, "Divide") == 2.5
+
+    def test_divide_by_zero_raises(self):
+        with pytest.raises(ZeroDivisionError):
+            Calculator.calculate(5, 0, "Divide")
 
 
-def test_divide_by_zero():
-    assert Calculator.calculate(10, 0, "Divide") == "Cannot divide by zero"
+class TestCalculatorInvalidOperation:
+    def test_invalid_operation_raises(self):
+        with pytest.raises(ValueError):
+            Calculator.calculate(1, 2, "Modulo")
+
+    def test_empty_operation_raises(self):
+        with pytest.raises(ValueError):
+            Calculator.calculate(1, 2, "")
