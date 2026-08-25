@@ -8,6 +8,21 @@ import os
 HISTORY_FILE = "history.json"
 
 
+def load_history():
+    """Load calculation history from disk. Returns an empty list if the
+    file doesn't exist or contains invalid/corrupted data."""
+    if not os.path.exists(HISTORY_FILE):
+        return []
+    try:
+        with open(HISTORY_FILE, "r", encoding="utf-8") as file:
+            data = json.load(file)
+            if isinstance(data, list):
+                return data
+            return []
+    except (OSError, json.JSONDecodeError):
+        return []
+
+
 def save_history(history):
     """Persist calculation history to disk."""
     try:
