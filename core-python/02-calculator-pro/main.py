@@ -18,3 +18,23 @@ def load_history():
             return data if isinstance(data, list) else []
     except (json.JSONDecodeError, OSError):
         return []
+
+
+
+# Map operation names to calculation functions.
+OPERATIONS = {
+    "Add": add,
+    "Subtract": subtract,
+    "Multiply": multiply,
+    "Divide": divide,
+}
+
+
+def calculate(num1, num2, operation):
+    """Validate the operation and execute the matching function."""
+    try:
+        operation_function = OPERATIONS[operation]
+    except KeyError:
+        raise ValueError("Invalid operation")
+
+    return operation_function(num1, num2)
