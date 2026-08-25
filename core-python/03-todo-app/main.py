@@ -1,110 +1,139 @@
-import json
+# Todo CLI app - improved procedural version.
 
-# File to store tasks permanently
+
+import json
+import os
+
 FILE_NAME = "tasks.json"
 
-# Load tasks from file if exists
-try:
-    with open(FILE_NAME, "r") as file:
-        tasks = json.load(file)
-except FileNotFoundError:
-    tasks = []
+
+def load_tasks() -> list[dict]:
+    """Load tasks from disk. Falls back to an empty list if the file
+    doesn't exist, is empty/corrupted, or doesn't contain a list."""
+    if not os.path.exists(FILE_NAME):
+        return []
+    try:
+        with open(FILE_NAME, "r", encoding="utf-8") as file:
+            data = json.load(file)
+            if isinstance(data, list):
+                return data
+            print("Warning: tasks.json had unexpected content, starting fresh ❗")
+            return []
+    except (OSError, json.JSONDecodeError):
+        print("Warning: tasks.json was empty or corrupted, starting fresh ❗")
+        return []
 
 
-# Save tasks to file
-def save_tasks():
-    with open(FILE_NAME, "w") as file:
-        json.dump(tasks, file)
+def save_tasks(tasks: list[dict]) -> bool:
+    """Persist tasks to disk. Returns True on success, False on failure."""
+    try:
+        with open(FILE_NAME, "w", encoding="utf-8") as file:
+            json.dump(tasks, file, ensure_ascii=False, indent=2)
+        return True
+    except OSError:
+        print("Error: could not save tasks to disk ❌")
+        return False
 
 
-while True:
+def print_task_list(tasks: list[dict]) -> None:
+    """Print a numbered list of all tasks with their status."""
+    for i, task in enumerate(tasks, start=1):
+        status = "✔" if task["done"] else "❌"
+        print(f"{i}. {status} {task['task']}")
 
-    # Menu
+
+def prompt_task_index(tasks: list[dict], prompt: str) -> int | None:
+    """Ask the user to pick a task number. Returns a valid 0-based
+    index, or None if the input was invalid/out of range."""
+    try:
+        choice = int(input(prompt))
+    except ValueError:
+        print("Please enter a valid number ❗")
+        return None
+
+    if 1 <= choice <= len(tasks):
+        return choice - 1
+
+    print("Invalid task number ❌")
+    return None
+
+
+def add_task(tasks: list[dict]) -> None:
+    description = input("Enter your new task: ").strip()
+    if not description:
+        print("Task cannot be empty ❗")
+        return
+    tasks.append({"task": description, "done": False})
+    if save_tasks(tasks):
+        print("Task added successfully ✔")
+
+
+def view_tasks(tasks: list[dict]) -> None:
+    if not tasks:
+        print("No tasks yet ❗")
+        return
+    print_task_list(tasks)
+
+
+def delete_task(tasks: list[dict]) -> None:
+    if not tasks:
+        print("No tasks to delete ❗")
+        return
+    print_task_list(tasks)
+    index = prompt_task_index(tasks, "Enter task number to delete: ")
+    if index is None:
+        return
+    removed = tasks.pop(index)
+    if save_tasks(tasks):
+        print(f"Deleted: {removed['task']} ✔")
+
+
+def toggle_task(tasks: list[dict]) -> None:
+    if not tasks:
+        print("No tasks to update ❗")
+        return
+    print_task_list(tasks)
+    index = prompt_task_index(tasks, "Enter task number to toggle: ")
+    if index is None:
+        return
+    tasks[index]["done"] = not tasks[index]["done"]
+    if save_tasks(tasks):
+        print("Task updated ✔")
+
+
+def print_menu() -> None:
     print("\n1) Add task")
     print("2) View tasks")
     print("3) Delete task")
     print("4) Exit")
     print("5) Toggle task (done/undone)")
 
-    # User input
-    user_choice = input("Enter your choice: ")
 
-    # -------------------
-    # Add task
-    # -------------------
-    if user_choice == "1":
-        task = input("Enter your new task: ")
-        tasks.append({"task": task, "done": False})
-        save_tasks()
-        print("Task added successfully ✔")
+def main() -> None:
+    tasks = load_tasks()
 
-    # -------------------
-    # View tasks
-    # -------------------
-    elif user_choice == "2":
-        if len(tasks) == 0:
-            print("No tasks yet ❗")
-        else:
-            for i, task in enumerate(tasks, start=1):
-                status = "✔" if task["done"] else "❌"
-                print(f"{i}. {status} {task['task']}")
+    actions = {
+        "1": add_task,
+        "2": view_tasks,
+        "3": delete_task,
+        "5": toggle_task,
+    }
 
-    # -------------------
-    # Delete task
-    # -------------------
-    elif user_choice == "3":
-        if len(tasks) == 0:
-            print("No tasks to delete ❗")
-        else:
-            for i, task in enumerate(tasks, start=1):
-                status = "✔" if task["done"] else "❌"
-                print(f"{i}. {status} {task['task']}")
+    while True:
+        print_menu()
+        user_choice = input("Enter your choice: ").strip()
 
-            try:
-                user_input = int(input("Enter task number to delete: "))
+        if user_choice == "4":
+            print("Goodbye 👋")
+            break
 
-                if 1 <= user_input <= len(tasks):
-                    removed = tasks.pop(user_input - 1)
-                    save_tasks()
-                    print(f"Deleted: {removed['task']} ✔")
-                else:
-                    print("Invalid task number ❌")
+        action = actions.get(user_choice)
+        if action is None:
+            print("Invalid choice ❌")
+            continue
 
-            except:
-                print("Please enter a valid number ❗")
+        action(tasks)
 
-    # -------------------
-    # Toggle task
-    # -------------------
-    elif user_choice == "5":
-        if len(tasks) == 0:
-            print("No tasks to update ❗")
-        else:
-            for i, task in enumerate(tasks, start=1):
-                status = "✔" if task["done"] else "❌"
-                print(f"{i}. {status} {task['task']}")
 
-            try:
-                user_input = int(input("Enter task number to toggle: "))
-
-                if 1 <= user_input <= len(tasks):
-                    task = tasks[user_input - 1]
-                    task["done"] = not task["done"]
-                    save_tasks()
-                    print("Task updated ✔")
-                else:
-                    print("Invalid task number ❌")
-
-            except:
-                print("Please enter a valid number ❗")
-
-    # -------------------
-    # Exit
-    # -------------------
-    elif user_choice == "4":
-        print("Goodbye 👋")
-        break
-
-    # Invalid input
-    else:
-        print("Invalid choice ❌")
+if __name__ == "__main__":
+    main()
