@@ -19,14 +19,25 @@ class HistoryManager:
         self.history: list[str] = self._load()
 
     def _load(self) -> list[str]:
-        if os.path.exists(self.file_path):
-            with open(self.file_path, "r") as file:
-                return json.load(file)
-        return []
+        """Load history from disk. Returns an empty list if the file
+        doesn't exist or contains invalid/corrupted data."""
+        if not os.path.exists(self.file_path):
+            return []
+        try:
+            with open(self.file_path, "r", encoding="utf-8") as file:
+                data = json.load(file)
+                if isinstance(data, list):
+                    return data
+                return []
+        except (OSError, json.JSONDecodeError):
+            return []
 
     def save(self) -> None:
-        with open(self.file_path, "w") as file:
-            json.dump(self.history, file)
+        try:
+            with open(self.file_path, "w", encoding="utf-8") as file:
+                json.dump(self.history, file, ensure_ascii=False, indent=2)
+        except OSError:
+            raise
 
     def add(self, entry: str) -> None:
         self.history.append(entry)
@@ -39,7 +50,7 @@ class Calculator:
     OPERATIONS = ("Add", "Subtract", "Multiply", "Divide")
 
     @staticmethod
-    def calculate(num1: float, num2: float, operation: str):
+    def calculate(num1: float, num2: float, operation: str) -> float:
         if operation == "Add":
             return num1 + num2
         if operation == "Subtract":
@@ -48,9 +59,9 @@ class Calculator:
             return num1 * num2
         if operation == "Divide":
             if num2 == 0:
-                return "Cannot divide by zero"
+                raise ZeroDivisionError("Cannot divide by zero")
             return num1 / num2
-        return "Invalid operation"
+        raise ValueError("Invalid operation")
 
 
 class CalculatorApp:
@@ -69,25 +80,32 @@ class CalculatorApp:
 
     def _build_ui(self) -> None:
         self.entry_num1 = tk.Entry(self.root)
-        self.entry_num1.grid(row=0, column=1)
+        self.entry_num1.grid(row=0, column=1, padx=5, pady=5)
 
         self.entry_num2 = tk.Entry(self.root)
-        self.entry_num2.grid(row=1, column=1)
+        self.entry_num2.grid(row=1, column=1, padx=5, pady=5)
 
         self.operation_var = tk.StringVar(value="Add")
         operation_box = ttk.Combobox(
-            self.root, textvariable=self.operation_var, values=self.calculator.OPERATIONS
+            self.root,
+            textvariable=self.operation_var,
+            values=self.calculator.OPERATIONS,
+            state="readonly",
         )
-        operation_box.grid(row=2, column=1)
+        operation_box.grid(row=2, column=1, padx=5, pady=5)
 
-        tk.Button(self.root, text="Calculate", command=self.perform_operation).grid(row=3, column=1)
-        tk.Button(self.root, text="Clear", command=self.clear_inputs).grid(row=3, column=0)
+        tk.Button(self.root, text="Calculate", command=self.perform_operation).grid(
+            row=3, column=1, padx=5, pady=5
+        )
+        tk.Button(self.root, text="Clear", command=self.clear_inputs).grid(
+            row=3, column=0, padx=5, pady=5
+        )
 
         self.label_result = tk.Label(self.root, text="Result")
-        self.label_result.grid(row=4, column=1)
+        self.label_result.grid(row=4, column=1, padx=5, pady=5)
 
         self.listbox_history = tk.Listbox(self.root, width=40)
-        self.listbox_history.grid(row=5, column=0, columnspan=2)
+        self.listbox_history.grid(row=5, column=0, columnspan=2, padx=5, pady=5)
 
     def _load_history_into_ui(self) -> None:
         for item in self.history_manager.history:
@@ -100,14 +118,18 @@ class CalculatorApp:
             operation = self.operation_var.get()
 
             result = self.calculator.calculate(num1, num2, operation)
-            output = f"{num1} {operation} {num2} = {result}"
+            output = f"{num1:g} {operation} {num2:g} = {result:g}"
 
-            self.label_result.config(text=f"Result: {result}")
+            self.label_result.config(text=f"Result: {result:g}")
             self.history_manager.add(output)
             self.listbox_history.insert(tk.END, output)
 
         except ValueError:
-            self.label_result.config(text="Enter valid numbers")
+            self.label_result.config(text="Enter valid numbers or select a valid operation")
+        except ZeroDivisionError as error:
+            self.label_result.config(text=str(error))
+        except OSError:
+            self.label_result.config(text="Could not save history")
 
     def clear_inputs(self) -> None:
         self.entry_num1.delete(0, tk.END)
