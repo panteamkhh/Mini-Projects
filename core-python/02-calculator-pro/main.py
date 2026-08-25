@@ -3,6 +3,7 @@ from tkinter import ttk
 import json
 import os
 
+
 # File used to store history permanently
 HISTORY_FILE = "history.json"
 
@@ -38,3 +39,6 @@ def calculate(num1, num2, operation):
         raise ValueError("Invalid operation")
 
     return operation_function(num1, num2)
+
+load_history()
+save_history()
