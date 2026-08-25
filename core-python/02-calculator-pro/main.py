@@ -42,3 +42,6 @@ def calculate(num1, num2, operation):
 
 load_history()
 save_history()
+
+def format_calculation(num1, num2, operation, result):
+    return f"{num1:g} {operation} {num2:g} = {result:g}"
