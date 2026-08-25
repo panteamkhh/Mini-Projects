@@ -61,3 +61,19 @@ def _history_to_text(item):
     )        
 
 self._load_history_into_ui()
+
+
+def _load_history_into_ui(self):
+    for item in self.history:
+        self.listbox_history.insert(tk.END, self._history_to_text(item))
+
+
+@staticmethod
+def _history_to_text(item):
+    return format_calculation(
+        item["num1"],
+        item["num2"],
+        item["operation"],
+        item["result"],
+    )
+
