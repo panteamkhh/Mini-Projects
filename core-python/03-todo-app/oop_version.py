@@ -1,11 +1,4 @@
-"""
-Todo CLI app - OOP version.
-
-Separates persistence/data (TaskManager, Task) from the CLI
-presentation layer (TodoCLI), and fixes the same bugs as the
-procedural version (corrupted/empty tasks.json, bare except,
-missing encoding, duplicated printing logic).
-"""
+# Todo CLI app - OOP version.
 
 import json
 import os
