@@ -1,18 +1,7 @@
-"""
-Unit tests for the todo app.
-
-Covers the pure data/logic layer of both versions:
-- todo_procedural.load_tasks / save_tasks
-- todo_oop.Task / TaskManager
-
-The interactive CLI loops (input()/print() driven) are not covered by
-automated tests here, since they wrap the tested logic almost directly.
-"""
+# Unit tests for the todo app.
 
 import json
-
 import pytest
-
 import todo_procedural
 from todo_oop import Task, TaskManager
 
