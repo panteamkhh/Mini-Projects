@@ -1,5 +1,4 @@
-# Todo CLI app - improved procedural version.
-
+#Todo CLI app - improved procedural version.
 
 import json
 import os
