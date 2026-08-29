@@ -1,6 +1,6 @@
 """Unit tests for RockPaperScissorsGame winner logic."""
 
-from main import RockPaperScissorsGame
+from oop_version import RockPaperScissorsGame
 
 
 def test_draw():
