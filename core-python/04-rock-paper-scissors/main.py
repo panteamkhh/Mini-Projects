@@ -27,67 +27,64 @@ def get_winner(user_choice, pc_choice):
     return "pc"
 
 
-# Available choices in the game
-choices = ["rock", "paper", "scissors"]
-
-# Initialize scores
-user_score = 0
-pc_score = 0
-
-# Show game rules
-show_rules()
-
-# Play exactly three rounds
-for round_number in range(1, 4):
-
-    # Display current round
-    print(f"\nRound {round_number}")
-
-    # Get user input
-    user_choice = input(
-        "Enter your choice (rock, paper, scissors): "
-    ).lower()
-
-    # Validate user input
+def get_user_choice(choices):
+    user_choice = input("Enter your choice (rock, paper, scissors): ").lower()
     while user_choice not in choices:
         print("Invalid choice!")
-        user_choice = input(
-            "Enter your choice (rock, paper, scissors): "
-        ).lower()
+        user_choice = input("Enter your choice (rock, paper, scissors): ").lower()
+    return user_choice
 
-    # Generate PC choice
-    pc_choice = random.choice(choices)
 
-    print(f"PC chose: {pc_choice}")
+def play_match(rounds=3):
+    choices = ["rock", "paper", "scissors"]
+    user_score = 0
+    pc_score = 0
 
-    # Determine round winner
-    winner = get_winner(user_choice, pc_choice)
+    show_rules()
 
-    # Handle draw result
-    if winner == "draw":
-        print("Draw!")
+    # Play exactly `rounds` rounds
+    for round_number in range(1, rounds + 1):
 
-    # Handle user win
-    elif winner == "user":
-        print("You win this round!")
-        user_score += 1
+        # Display current round
+        print(f"\nRound {round_number}")
 
-    # Handle PC win
+        # Get user input
+        user_choice = get_user_choice(choices)
+
+        # Generate PC choice
+        pc_choice = random.choice(choices)
+        print(f"PC chose: {pc_choice}")
+
+        # Determine round winner
+        winner = get_winner(user_choice, pc_choice)
+
+        # Handle draw result
+        if winner == "draw":
+            print("Draw!")
+
+        # Handle user win
+        elif winner == "user":
+            print("You win this round!")
+            user_score += 1
+
+        # Handle PC win
+        else:
+            print("PC wins this round!")
+            pc_score += 1
+
+        # Display current score
+        print(f"Score => You: {user_score} | PC: {pc_score}")
+
+    # Display final result
+    print("\nFinal Result")
+
+    if user_score > pc_score:
+        print("You Win The Match!")
+    elif pc_score > user_score:
+        print("PC Wins The Match!")
     else:
-        print("PC wins this round!")
-        pc_score += 1
+        print("The Match Is A Draw!")
 
-    # Display current score
-    print(f"Score => You: {user_score} | PC: {pc_score}")
 
-# Display final result
-print("\nFinal Result")
-
-if user_score > pc_score:
-    print("You Win The Match!")
-
-elif pc_score > user_score:
-    print("PC Wins The Match!")
-
-else:
-    print("The Match Is A Draw!")
+if __name__ == "__main__":
+    play_match(rounds=3)
