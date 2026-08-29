@@ -26,9 +26,15 @@ displayed up front and a running score.
 - Functions
 - Random Module  
 
+## Project structure
+- `main.py` – simple procedural version (functions only, no class)
+- `oop_version.py` – object-oriented version (`RockPaperScissorsGame` class)
+- `test_main.py` – unit tests for the winner logic (uses `oop_version.py`)
+
 ## How to run
 ```bash
-python main.py
+python main.py          # simple version
+python oop_version.py   # OOP version
 ```
 
 ## How to test
