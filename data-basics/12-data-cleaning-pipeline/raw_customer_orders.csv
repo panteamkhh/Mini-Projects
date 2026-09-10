@@ -1,0 +1,526 @@
+order_id,customer_name,region,order_date,amount,quantity
+ORD-00396,Reza Rostami, EAST,5-Oct-2024,474.37,8
+ORD-00391,Ali Rostami, North,7-Oct-2024,$542.92,2
+ORD-00163,Kian Jafari, North,01/31/2024,706,6
+ORD-00102,Reza Moradi, south,2024-02-11, 468.95 ,11
+ORD-00362,Leila Rostami,north,29-May-2024,850.69,2
+ORD-00309,Sara Karimi,West  ,2024-06-04,815,10
+ORD-00133,Ali Karimi,East,2024-09-22, 596.43 ,7
+ORD-00004,Leila Moradi,WEST,2024-09-20,174.97,11
+ORD-00465,Reza Karimi,South,08/14/2024,219.34,5
+ORD-00119,Mina Hosseini,south,2024-03-04,$420.65,9
+ORD-00066,Ali Ahmadi,South,07/20/2024,$778.31,6
+ORD-00342,Mina Moradi,east,01/27/2024,666.75,5
+ORD-00434,Kian Jafari,south,2024-09-15,505.13,8
+ORD-00314,Reza Moradi,South,07/03/2024, 263.49 ,7
+ORD-00247,Leila Jafari,West,19-Mar-2024,96,10
+ORD-00052,Amir Rostami,East,03/14/2024,487.56,8
+ORD-00284,Amir Jafari,West  ,2024-08-16,287.75,8
+ORD-00386,Ali Karimi, south,1-Oct-2024,517.87,10
+ORD-00116,Mina Hosseini,north,4-Feb-2024, 189.87 ,3
+ORD-00139,Leila Ahmadi,West,2024-06-20,46.83,0
+ORD-00245,Mina Moradi,WEST,28-Mar-2024, 377.37 ,3
+ORD-00282,Nazanin Rostami,South,2-Jun-2024,220.32,4
+ORD-00090,Nazanin Rostami,West,2024-06-26,294.30,8
+ORD-00281,Kian Jafari,west,27-Apr-2024,$603.34,3
+ORD-00319,Sara Moradi,East,14-Aug-2024,851,9
+ORD-00436,Kian Rostami,east,2024-09-09,$793.86,1
+ORD-00294,Ali Rostami, EAST,09/21/2024, 20.94 ,1
+ORD-00250,Nazanin Karimi,east,23-Sep-2024,$363.73,4
+ORD-00217,Kian Jafari,east,04/17/2024,$417.31,0
+ORD-00446,Amir Jafari,West  ,2024-04-25,$127.94,9
+ORD-00272,Mina Hosseini,East,2024-01-04,765,11
+ORD-00024,Reza Rostami,WEST,02/12/2024, 567.76 ,1
+ORD-00271,Sara Jafari,West  ,1-Oct-2024,303.90,10
+ORD-00351,Nazanin Moradi,West  ,03/26/2024, 355.30 ,7
+ORD-00189,Mina Rostami,WEST,10/03/2024, 412.60 ,4
+ORD-00014,Ali Ahmadi,South,03/28/2024,542,2
+ORD-00098,Amir Rostami,SOUTH ,08/29/2024, 509.67 ,N/A
+ORD-00155,Amir Rostami,WEST,2024-08-26, 525.52 ,4
+ORD-00166,Amir Rostami,north,2024-10-25,415,11
+ORD-00033,Amir Rostami, North,09/15/2024,623.66,6
+ORD-00221,Amir Jafari, south,2024-03-03, 249.43 ,10
+ORD-00391,Ali Rostami, North,7-Oct-2024,$542.92,2
+ORD-00425,Sara Jafari,west,29-Apr-2024,$744.76,7
+ORD-00345,Mina Ahmadi,south,03/31/2024, 753.63 ,4
+ORD-00203,Ali Moradi,west,08/12/2024,158,5
+ORD-00056,Leila Rostami,WEST,04/02/2024,$211.08,1
+ORD-00329,Nazanin Karimi,WEST,01/20/2024,$261.34,3
+ORD-00051,Sara Karimi,west,10/12/2024, 729.91 ,5
+ORD-00323,Reza Rostami, EAST,02/01/2024,664,7
+ORD-00026,Reza Ahmadi,north,2024-01-04,76,5
+ORD-00381,Leila Rostami,West,10/17/2024,220,10
+ORD-00328,Ali Hosseini,NORTH,2024-03-25, 879.83 ,9
+ORD-00102,Reza Moradi, south,2024-02-11, 468.95 ,11
+ORD-00413,Sara Ahmadi,south,2024-03-15,520.87,11
+ORD-00383,Leila Karimi,SOUTH ,2024-10-17,$110.94,8
+ORD-00464,Nazanin Karimi,SOUTH ,04/08/2024,$453.95,3
+ORD-00448,Nazanin Moradi,NORTH,25-Oct-2024, 691.32 ,4
+ORD-00402,Kian Hosseini,east,01/26/2024,688,3
+ORD-00275,Sara Ahmadi,East,14-May-2024,$326.33,3
+ORD-00147,Ali Jafari,,2024-02-24,485.22,11
+ORD-00432,Reza Hosseini,SOUTH ,08/02/2024, 231.42 ,9
+ORD-00257,Ali Hosseini,,29-Jan-2024,415,5
+ORD-00041,Mina Hosseini,South,10/15/2024,$224.47,11
+ORD-00325,Kian Rostami,North ,01/10/2024,$756.14,-3
+ORD-00474,Nazanin Hosseini,east,24-Sep-2024,$575.87,11
+ORD-00244,Nazanin Ahmadi,South,30-Jan-2024,844.20,8
+ORD-00260,Reza Jafari,North ,29-Feb-2024,22,10
+ORD-00083,Leila Jafari, south,04/06/2024, 614.35 ,6
+ORD-00249,Ali Karimi, EAST,2024-06-12, 106.16 ,5
+ORD-00222,Kian Karimi,WEST,2024-02-14,$234.64,9
+ORD-00218,Reza Karimi,West  ,08/13/2024,374,1
+ORD-00114,Kian Hosseini,West  ,2024-06-02,562.84,1
+ORD-00341,Kian Ahmadi, EAST,7-Sep-2024,,7
+ORD-00471,Reza Karimi, North,03/17/2024, 591.49 ,1
+ORD-00233,Nazanin Jafari,west,06/28/2024,769.59,7
+ORD-00214,Amir Jafari,SOUTH ,2024-01-25,425,2
+ORD-00489,Amir Jafari,south,2024-02-20,$242.76,10
+ORD-00188,Amir Hosseini,East,10/07/2024, 356.98 ,4
+ORD-00335,Mina Rostami,west,2024-04-11,$703.93,9
+ORD-00237,Kian Karimi,North,03/12/2024,226.46,11
+ORD-00160,Sara Karimi,north,2024-10-07,234.44,6
+ORD-00360,Ali Moradi,West  ,02/07/2024, 870.45 ,6
+ORD-00238,,West,10/22/2024,857,11
+ORD-00180,Sara Ahmadi,east,20-Apr-2024, 600.57 ,7
+ORD-00091,Ali Hosseini,NORTH,2024-01-31,301.01,5
+ORD-00290,Mina Karimi,South,01/27/2024,891,6
+ORD-00423,Kian Ahmadi,East,12-Jun-2024,277,N/A
+ORD-00061,Reza Jafari,NORTH,2024-08-16,$800.59,11
+ORD-00236,Sara Rostami,NORTH,06/26/2024,383,3
+ORD-00479,Nazanin Karimi,east,2024-07-29,$481.13,10
+ORD-00352,Mina Jafari,West,31-Mar-2024,$678.68,3
+ORD-00444,Sara Hosseini,West  ,11-Feb-2024,439.09,1
+ORD-00246,Kian Jafari,West,2024-09-19,543,5
+ORD-00317,Nazanin Ahmadi,East,20-Feb-2024,317,6
+ORD-00486,Mina Jafari,WEST,05/29/2024,31,3
+ORD-00370,Leila Jafari,North,10/01/2024, 58.95 ,8
+ORD-00121,Mina Hosseini,west,2024-06-10,681,-3
+ORD-00469,Sara Moradi,west,03/31/2024,431,10
+ORD-00377,Reza Ahmadi,WEST,08/25/2024,$329.22,10
+ORD-00110,Reza Rostami, North,16-Sep-2024,269,5
+ORD-00146,Kian Rostami,West  ,2024-05-20,594.77,2
+ORD-00165,Sara Jafari,NORTH,01/29/2024,49.19,9
+ORD-00174,Amir Rostami,WEST,01/15/2024, 812.28 ,4
+ORD-00389,Ali Moradi,north,09/06/2024,682,8
+ORD-00031,Amir Moradi, south,10/17/2024,370.27,3
+ORD-00023,Reza Karimi,west,6-Aug-2024,768.30,5
+ORD-00279,Leila Jafari,East,03/27/2024,91.37,2
+ORD-00032,Amir Ahmadi, south,2024-02-26, 579.30 ,1
+ORD-00358,Nazanin Rostami,West  ,2024-05-23, 112.99 ,3
+ORD-00021,Kian Ahmadi,East,09/28/2024,17,5
+ORD-00487,Leila Karimi,West,2024-04-23,225.86,6
+ORD-00053,Leila Hosseini,North ,05/09/2024, 403.42 ,8
+ORD-00133,Ali Karimi,East,2024-09-22, 596.43 ,7
+ORD-00274,Leila Jafari,South,02/28/2024,563.60,5
+ORD-00229,Reza Rostami,SOUTH ,08/06/2024,345.44,9
+ORD-00363,Nazanin Jafari, south,17-Aug-2024,$485.37,1
+ORD-00371,Reza Moradi,,14-Jun-2024,742.89,8
+ORD-00057,Kian Ahmadi, south,2024-07-04,775,6
+ORD-00460,Kian Karimi,SOUTH ,30-Sep-2024,459.15,8
+ORD-00003,Nazanin Moradi,SOUTH ,23-Mar-2024, 108.16 ,4
+ORD-00497,,South,07/26/2024,209.85,4
+ORD-00059,Mina Moradi,WEST,19-May-2024,300,10
+ORD-00382,Sara Moradi,SOUTH ,2024-01-27,308,9
+ORD-00254,Sara Karimi,WEST,09/17/2024,$747.42,1
+ORD-00461,,east,03/14/2024, 340.14 ,8
+ORD-00451,Kian Rostami,east,9-Jan-2024,455,5
+ORD-00470,Sara Hosseini,North ,2024-02-25,631.08,11
+ORD-00243,Kian Hosseini,NORTH,08/20/2024,$261.60,3
+ORD-00075,Mina Rostami,,29-Jul-2024,139.93,10
+ORD-00450,,,06/16/2024, 533.05 ,6
+ORD-00440,Kian Rostami,east,01/30/2024, 576.97 ,6
+ORD-00490,Ali Rostami,West  ,05/31/2024,852,6
+ORD-00081,Amir Moradi,West,2024-07-22,871,5
+ORD-00262,Leila Ahmadi, EAST,03/20/2024,194.91,8
+ORD-00027,Leila Moradi,north,2024-03-21,$338.92,9
+ORD-00205,Nazanin Hosseini, North,2024-03-30,$193.17,6
+ORD-00294,Ali Rostami, EAST,09/21/2024, 20.94 ,1
+ORD-00369,Kian Ahmadi,West,30-Jun-2024,491,2
+ORD-00482,Mina Hosseini,SOUTH ,2024-01-13,464,4
+ORD-00353,Ali Rostami,South,02/16/2024,$581.18,4
+ORD-00109,Amir Karimi,SOUTH ,2024-09-26,,1
+ORD-00015,, EAST,06/16/2024,323.71,1
+ORD-00148,,WEST,05/19/2024,622.37,1
+ORD-00115,Mina Hosseini,,9-Aug-2024,455,3
+ORD-00408,Sara Rostami,West,2024-09-27,$672.46,8
+ORD-00156,Leila Jafari,East,2024-07-27,256,2
+ORD-00060,Amir Rostami,,2024-04-28,36.68,7
+ORD-00194,Ali Jafari,NORTH,2024-01-02,$893.61,10
+ORD-00099,Amir Moradi,North ,05/08/2024,,2
+ORD-00322,Sara Rostami, North,1-Sep-2024,116,5
+ORD-00491,Amir Ahmadi,South,2024-02-02,36,1
+ORD-00042,Sara Moradi, south,07/18/2024, 70.78 ,11
+ORD-00390,Sara Karimi,North,2024-03-19, 430.79 ,8
+ORD-00228,Leila Moradi,south,13-Jun-2024,228,11
+ORD-00241,Leila Karimi,West  ,01/12/2024,$600.85,11
+ORD-00080,Sara Jafari,south,01/05/2024, 848.40 ,2
+ORD-00029,Mina Jafari,East,11-Aug-2024,600,7
+ORD-00447,Mina Karimi, EAST,08/26/2024,162.08,4
+ORD-00322,Sara Rostami, North,1-Sep-2024,116,5
+ORD-00240,Kian Karimi,East,2024-05-17,196.38,9
+ORD-00269,Ali Moradi,east,2024-03-02,760,11
+ORD-00213,Ali Moradi,south,2024-10-19,$706.48,10
+ORD-00348,Sara Rostami,West,16-Oct-2024,707.08,5
+ORD-00058,Nazanin Rostami, south,09/25/2024,744.28,9
+ORD-00169,Mina Hosseini, south,2024-05-05,$879.67,11
+ORD-00063,Mina Hosseini, south,3-Apr-2024,596.33,3
+ORD-00404,Nazanin Moradi,West,2024-08-01,573.10,10
+ORD-00112,Sara Hosseini, south,2024-04-27,309,7
+ORD-00085,Sara Ahmadi,east,1-Oct-2024,344.80,7
+ORD-00411,Mina Hosseini, south,23-Sep-2024,$548.05,7
+ORD-00378,Reza Moradi,South,05/27/2024,378,0
+ORD-00385,Sara Ahmadi, EAST,2024-04-22, 392.85 ,9
+ORD-00454,Nazanin Rostami,west,10/11/2024,$671.17,7
+ORD-00130,Mina Hosseini,south,05/07/2024, 121.32 ,11
+ORD-00259,Mina Moradi,south,23-Sep-2024,865,9
+ORD-00097,Nazanin Ahmadi,NORTH,2024-06-07,$571.69,11
+ORD-00442,Leila Ahmadi,North,2024-08-06, 701.80 ,3
+ORD-00178,Mina Hosseini,East,02/25/2024,346,2
+ORD-00443,,WEST,2024-07-04,809,6
+ORD-00500,Mina Karimi,north,11-Mar-2024,73,9
+ORD-00142,Nazanin Jafari,West,3-Jun-2024,424,1
+ORD-00483,Sara Hosseini,East,10-Oct-2024,$711.77,3
+ORD-00014,Ali Ahmadi,South,03/28/2024,542,2
+ORD-00388,Amir Jafari,North ,04/29/2024, 333.91 ,7
+ORD-00495,Sara Karimi, south,5-Sep-2024,700,1
+ORD-00359,Kian Moradi,West  ,2024-05-21,892,5
+ORD-00337,Mina Hosseini, EAST,31-Jan-2024, 848.86 ,0
+ORD-00268,Reza Ahmadi,south,07/07/2024, 342.45 ,4
+ORD-00265,Leila Hosseini, EAST,07/14/2024, 82.30 ,5
+ORD-00082,Reza Ahmadi,,02/18/2024,$660.83,9
+ORD-00485,Leila Karimi,WEST,06/01/2024,$750.47,8
+ORD-00327,Amir Karimi,East,06/07/2024,644.18,10
+ORD-00477,Sara Rostami, south,19-Apr-2024,722.00,3
+ORD-00219,Leila Ahmadi, North,2024-06-25,$157.40,5
+ORD-00453,Mina Rostami, EAST,2024-09-09, 682.50 ,0
+ORD-00285,Kian Rostami,west,2024-01-16, 828.48 ,6
+ORD-00306,Nazanin Ahmadi, EAST,25-Jun-2024,228.11,7
+ORD-00457,Leila Hosseini,east,2024-04-22,723.52,8
+ORD-00054,Mina Ahmadi,NORTH,08/03/2024,$251.58,1
+ORD-00172,Nazanin Karimi,West,29-May-2024, 332.01 ,6
+ORD-00201,Mina Rostami,east,10-May-2024,188.86,10
+ORD-00295,Sara Rostami,North,4-Sep-2024,276,10
+ORD-00140,Sara Rostami,south,08/03/2024,$186.13,3
+ORD-00405,Sara Ahmadi,west,01/11/2024,826,2
+ORD-00297,Sara Hosseini, North,12-Jun-2024,100,11
+ORD-00067,Ali Karimi,west,08/31/2024, 447.88 ,9
+ORD-00437,,,13-Oct-2024, 793.33 ,N/A
+ORD-00278,Amir Rostami,SOUTH ,2-Sep-2024,322,11
+ORD-00307,Reza Karimi,SOUTH ,02/02/2024,$273.33,11
+ORD-00223,Kian Karimi, EAST,16-Aug-2024,707.80,9
+ORD-00480,Leila Jafari,north,7-Aug-2024,882.18,5
+ORD-00100,Kian Hosseini, North,17-Jun-2024,,4
+ORD-00296,Mina Ahmadi,SOUTH ,28-Jun-2024,741.75,unknown
+ORD-00149,Amir Hosseini,east,7-Oct-2024,233,8
+ORD-00016,Kian Rostami,East,02/07/2024,329,6
+ORD-00164,Leila Hosseini,west,01/10/2024,402,11
+ORD-00302,Reza Karimi,East,04/25/2024,507,2
+ORD-00047,Ali Karimi,South,10/09/2024,$335.86,N/A
+ORD-00087,Leila Hosseini,west,11-Jun-2024, 752.17 ,8
+ORD-00038,Amir Karimi, North,05/08/2024,650,8
+ORD-00441,Kian Jafari,North ,04/20/2024,$356.74,6
+ORD-00387,Reza Karimi,north,02/20/2024,266.88,8
+ORD-00419,Ali Jafari,East,2024-09-23, 73.55 ,4
+ORD-00207,Ali Jafari, EAST,2024-03-19,757.24,6
+ORD-00409,Kian Moradi,west,05/28/2024,$826.38,7
+ORD-00365,Nazanin Jafari,North ,16-Sep-2024, 741.20 ,4
+ORD-00173,Amir Jafari, EAST,2024-04-01,$62.26,6
+ORD-00074,Reza Karimi,North ,01/09/2024,$751.06,9
+ORD-00293,Ali Ahmadi,NORTH,2024-05-03,$875.31,-3
+ORD-00105,Ali Jafari, south,2024-01-24,351,10
+ORD-00250,Nazanin Karimi,east,23-Sep-2024,$363.73,4
+ORD-00422,Reza Hosseini,west,2024-08-17,680.35,6
+ORD-00017,Sara Rostami, south,13-Apr-2024,576,6
+ORD-00364,Kian Ahmadi,East,2024-03-15, 126.25 ,9
+ORD-00092,Nazanin Jafari,SOUTH ,5-Apr-2024,$655.73,4
+ORD-00089,Nazanin Ahmadi, south,14-Jun-2024,85.16,-3
+ORD-00498,Kian Hosseini,West  ,01/14/2024,769,7
+ORD-00141,Ali Jafari,SOUTH ,2024-10-25,$251.98,4
+ORD-00195,Nazanin Karimi, south,2024-09-01,$216.37,11
+ORD-00206,Mina Ahmadi,south,2024-03-29,$662.25,1
+ORD-00103,Nazanin Karimi, North,22-Feb-2024,157.50,1
+ORD-00239,Kian Hosseini, North,2024-01-11,$75.76,6
+ORD-00421,Amir Hosseini,west,04/12/2024,425.30,7
+ORD-00175,Ali Ahmadi,West,2024-02-04,843.06,7
+ORD-00171,Leila Rostami,west,09/30/2024,490.68,5
+ORD-00379,Nazanin Rostami,WEST,26-Aug-2024, 310.58 ,4
+ORD-00158,Amir Ahmadi,west,2-May-2024,473.08,9
+ORD-00334,Amir Jafari, EAST,03/30/2024,652,4
+ORD-00071,Leila Rostami,West,01/04/2024,441,2
+ORD-00134,Mina Jafari,NORTH,08/21/2024,677,8
+ORD-00222,Kian Karimi,WEST,2024-02-14,$234.64,9
+ORD-00320,Ali Rostami,North,21-May-2024,278,10
+ORD-00104,Amir Karimi,,11-Jun-2024,206,1
+ORD-00395,Mina Jafari, EAST,2024-02-07, 251.65 ,5
+ORD-00019,Ali Jafari,east,2024-02-03,$316.64,10
+ORD-00151,Kian Karimi,south,2024-10-14,665,10
+ORD-00355,Nazanin Hosseini,WEST,2024-03-24,$485.63,1
+ORD-00368,Amir Moradi,WEST,11-Jul-2024, 747.09 ,5
+ORD-00264,Amir Karimi,WEST,2024-04-07,$456.68,9
+ORD-00303,Kian Jafari,north,30-May-2024,629,8
+ORD-00483,Sara Hosseini,East,10-Oct-2024,$711.77,3
+ORD-00035,Kian Rostami,north,2024-03-16,$181.53,7
+ORD-00182,Ali Karimi,East,04/01/2024,687,1
+ORD-00185,Amir Hosseini,North ,2024-02-22, 218.19 ,8
+ORD-00208,Amir Moradi,north,08/21/2024,,3
+ORD-00095,Sara Rostami,,2024-08-31,,5
+ORD-00393,Ali Jafari,,06/02/2024,508,4
+ORD-00347,Ali Rostami,west,05/17/2024,727.70,1
+ORD-00123,Mina Ahmadi,WEST,2024-09-05,733,-3
+ORD-00354,Kian Hosseini, North,2024-02-08,$308.16,3
+ORD-00079,Nazanin Moradi, south,20-Jun-2024,861,3
+ORD-00062,Mina Rostami,SOUTH ,2024-05-31, 279.32 ,3
+ORD-00496,Nazanin Karimi,North,2024-07-03, 354.21 ,4
+ORD-00126,Nazanin Moradi, south,2024-10-24,$154.06,4
+ORD-00455,Ali Karimi,NORTH,2024-08-25, 143.51 ,7
+ORD-00331,Leila Ahmadi,SOUTH ,2024-03-25,$204.46,1
+ORD-00498,Kian Hosseini,West  ,01/14/2024,769,7
+ORD-00466,Kian Hosseini,West  ,2024-02-07,158.33,1
+ORD-00467,Mina Moradi,WEST,2024-01-19,$351.85,4
+ORD-00439,Kian Rostami,North ,2024-10-24,$674.86,10
+ORD-00025,Nazanin Jafari, EAST,4-Oct-2024,891.71,8
+ORD-00343,Sara Moradi, EAST,26-Mar-2024,310,7
+ORD-00372,Ali Ahmadi,South,28-Aug-2024,$629.22,2
+ORD-00229,Reza Rostami,SOUTH ,08/06/2024,345.44,9
+ORD-00127,Leila Ahmadi, North,2024-06-04,$633.84,9
+ORD-00481,Leila Jafari,west,2024-01-14,$544.94,9
+ORD-00301,Nazanin Jafari, EAST,2024-05-07,539.23,unknown
+ORD-00179,Sara Ahmadi,west,2024-06-08, 162.99 ,6
+ORD-00462,Reza Karimi,north,2024-04-19,409.05,8
+ORD-00407,Sara Hosseini,NORTH,5-Sep-2024,$481.92,N/A
+ORD-00224,Leila Moradi,east,2024-06-03,$115.92,3
+ORD-00478,Amir Jafari,South,20-Jul-2024, 266.76 ,7
+ORD-00094,Ali Jafari,south,02/02/2024,$218.56,10
+ORD-00070,Nazanin Rostami, EAST,11-Feb-2024,248.48,9
+ORD-00037,Nazanin Jafari,,02/04/2024,$427.85,11
+ORD-00161,Amir Moradi,NORTH,10/01/2024,$249.49,7
+ORD-00012,Kian Hosseini,south,2024-06-04,726,11
+ORD-00145,Mina Hosseini, EAST,2024-07-13,319.40,8
+ORD-00376,Ali Moradi,SOUTH ,05/23/2024,788,7
+ORD-00128,Sara Rostami,NORTH,08/03/2024,$240.20,3
+ORD-00304,Kian Jafari,NORTH,2024-06-23,287,3
+ORD-00010,Reza Karimi,West,1-Mar-2024,44,4
+ORD-00398,Leila Moradi,east,26-Jan-2024,$91.81,9
+ORD-00177,Leila Karimi,south,18-Aug-2024,$384.93,10
+ORD-00232,Kian Moradi,West,14-Sep-2024,875,5
+ORD-00211,Nazanin Karimi,east,2024-03-31,$456.63,9
+ORD-00129,Amir Rostami, North,19-Aug-2024,$243.18,4
+ORD-00144,Reza Ahmadi,North,09/18/2024,$491.90,6
+ORD-00242,Ali Ahmadi,north,18-Aug-2024,536.76,1
+ORD-00008,Sara Karimi,South,2024-06-05,,10
+ORD-00299,Amir Jafari,South,02/26/2024, 753.58 ,11
+ORD-00311,Leila Karimi, North,13-May-2024,334,8
+ORD-00255,Leila Rostami, EAST,2024-05-16,$221.47,2
+ORD-00427,Reza Ahmadi,WEST,30-Jul-2024,272.65,5
+ORD-00458,Kian Hosseini,north,26-Oct-2024,822,0
+ORD-00009,Ali Karimi,west,30-Jun-2024,619.56,5
+ORD-00157,Leila Ahmadi,SOUTH ,2024-09-26,399,8
+ORD-00028,Mina Ahmadi,East,20-Mar-2024, 719.20 ,3
+ORD-00267,Sara Jafari,North ,2-May-2024,$623.55,10
+ORD-00315,,South,09/23/2024,324.40,unknown
+ORD-00065,Leila Rostami, EAST,07/01/2024,721.55,2
+ORD-00256,Reza Moradi,North,18-Jan-2024, 43.19 ,4
+ORD-00473,Mina Jafari,west,08/16/2024,798.93,1
+ORD-00154,Leila Ahmadi,East,4-Apr-2024,852,5
+ORD-00049,Mina Jafari,NORTH,07/29/2024, 33.90 ,10
+ORD-00209,Mina Jafari,South,08/29/2024,97.15,9
+ORD-00288,Leila Rostami,East,27-Mar-2024,53.24,6
+ORD-00002,Nazanin Hosseini,,17-Sep-2024,$656.61,4
+ORD-00270,Leila Karimi,West,6-Oct-2024,720,10
+ORD-00266,Reza Moradi,North,06/26/2024,811.45,3
+ORD-00139,Leila Ahmadi,West,2024-06-20,46.83,0
+ORD-00356,Kian Hosseini,east,09/22/2024,551,3
+ORD-00096,Amir Jafari,SOUTH ,31-Aug-2024,771.57,5
+ORD-00493,,WEST,09/15/2024,523.34,N/A
+ORD-00043,Kian Jafari,SOUTH ,04/20/2024,$183.84,3
+ORD-00338,Reza Rostami,South,2024-07-01,$233.80,10
+ORD-00117,Amir Hosseini,north,2024-08-01,718.80,11
+ORD-00046,Amir Hosseini,south,29-Apr-2024,300,8
+ORD-00162,Sara Moradi,West  ,11-Oct-2024,$336.78,2
+ORD-00410,Amir Moradi, EAST,09/25/2024,582.68,10
+ORD-00118,Leila Ahmadi,NORTH,18-Jun-2024,$469.17,2
+ORD-00289,Reza Hosseini,North,2024-08-10,318.13,3
+ORD-00078,Kian Rostami,West,14-Oct-2024,425.01,6
+ORD-00417,Leila Karimi,north,03/20/2024,667,3
+ORD-00064,Sara Hosseini,NORTH,2024-09-20,$774.47,1
+ORD-00339,Sara Hosseini,North ,06/28/2024,274,3
+ORD-00418,Kian Rostami,NORTH,26-Apr-2024,833,9
+ORD-00414,Kian Moradi,east,17-Mar-2024,$506.00,11
+ORD-00231,Amir Hosseini,North ,3-Feb-2024,$611.79,2
+ORD-00298,Amir Jafari, North,2024-01-16,836.54,8
+ORD-00187,Kian Karimi,West  ,07/12/2024, 637.01 ,4
+ORD-00361,Leila Jafari,North ,2024-05-27,48.16,1
+ORD-00200,Ali Hosseini,South,02/05/2024,$758.13,8
+ORD-00366,Leila Moradi, south,2-May-2024,398.17,2
+ORD-00122,Amir Moradi,,2024-08-07,$766.42,3
+ORD-00499,Amir Ahmadi,east,06/12/2024,123,3
+ORD-00461,,east,03/14/2024, 340.14 ,8
+ORD-00308,, south,12-Oct-2024, 170.52 ,11
+ORD-00492,Mina Ahmadi, south,8-Aug-2024,279.39,1
+ORD-00159,,west,07/04/2024, 473.23 ,1
+ORD-00086,Amir Rostami, EAST,01/26/2024, 17.37 ,3
+ORD-00226,Sara Karimi,WEST,30-Mar-2024, 480.88 ,3
+ORD-00263,Kian Rostami,North,2024-09-24, 27.12 ,3
+ORD-00332,Mina Rostami,North,09/06/2024,$88.92,5
+ORD-00428,Nazanin Hosseini,,2024-10-02,,10
+ORD-00077,Amir Karimi,WEST,2024-05-05, 354.54 ,1
+ORD-00415,Mina Karimi,west,07/16/2024, 815.95 ,11
+ORD-00417,Leila Karimi,north,03/20/2024,667,3
+ORD-00088,Kian Moradi,WEST,21-May-2024,259,11
+ORD-00206,Mina Ahmadi,south,2024-03-29,$662.25,1
+ORD-00183,Leila Hosseini,SOUTH ,09/22/2024,612.60,9
+ORD-00106,Ali Rostami,North ,2024-07-07,$308.05,9
+ORD-00426,Ali Moradi,East,2024-07-29, 46.13 ,9
+ORD-00050,Ali Hosseini,East,28-Sep-2024,106,9
+ORD-00406,Amir Rostami,,2024-03-28,$93.69,-3
+ORD-00006,Kian Karimi,WEST,07/05/2024, 264.29 ,-3
+ORD-00018,Kian Moradi,North,8-Feb-2024,779.81,2
+ORD-00235,Nazanin Jafari, North,2024-10-13,414.70,7
+ORD-00430,Kian Rostami,South,17-Oct-2024,$253.98,2
+ORD-00373,Sara Jafari,south,03/12/2024,820,11
+ORD-00424,Reza Rostami, North,01/18/2024, 428.59 ,2
+ORD-00107,Nazanin Moradi,west,04/06/2024,$69.03,5
+ORD-00135,Kian Hosseini,south,06/10/2024,701.36,7
+ORD-00431,Reza Rostami, south,15-May-2024,$743.42,2
+ORD-00227,Mina Rostami,north,07/22/2024,291.60,7
+ORD-00215,Reza Moradi,West,2024-03-17,455,3
+ORD-00191,Mina Jafari, south,2024-07-26,36,3
+ORD-00472,Ali Hosseini,SOUTH ,2024-01-03, 878.10 ,0
+ORD-00321,Mina Hosseini,west,2024-07-25,730.91,2
+ORD-00283,Amir Karimi, EAST,2024-09-28, 516.73 ,11
+ORD-00030,,west,10-Feb-2024,$74.00,10
+ORD-00170,Leila Jafari,North,01/23/2024,$274.94,10
+ORD-00181,Nazanin Ahmadi,WEST,2024-07-15,$707.07,unknown
+ORD-00101,Nazanin Karimi,SOUTH ,19-May-2024,688.24,4
+ORD-00198,Ali Karimi, EAST,2024-10-15, 589.83 ,10
+ORD-00210,Kian Ahmadi,North ,2024-03-27,534,5
+ORD-00136,Ali Hosseini,east,2024-02-22,129,8
+ORD-00033,Amir Rostami, North,09/15/2024,623.66,6
+ORD-00459,Nazanin Ahmadi, EAST,08/25/2024,785,2
+ORD-00199,Leila Ahmadi,East,30-Apr-2024, 150.77 ,9
+ORD-00374,Ali Hosseini,West  ,02/18/2024, 254.07 ,5
+ORD-00167,Ali Jafari,south,05/04/2024,$193.21,6
+ORD-00452,Ali Moradi,North ,06/05/2024,144,3
+ORD-00137,Mina Rostami,north,5-Sep-2024,$582.36,3
+ORD-00286,Mina Rostami,east,07/15/2024,318,5
+ORD-00336,Nazanin Hosseini,West  ,2024-09-11, 30.03 ,3
+ORD-00397,Amir Ahmadi, EAST,2-Jan-2024,623.20,7
+ORD-00132,Sara Rostami,West  ,05/04/2024,33,6
+ORD-00040,Leila Rostami,east,03/02/2024,86,8
+ORD-00216,Nazanin Hosseini, south,02/05/2024, 446.23 ,10
+ORD-00044,Sara Karimi, EAST,27-Mar-2024,192,1
+ORD-00055,Kian Moradi,north,3-May-2024,495,1
+ORD-00218,Reza Karimi,West  ,08/13/2024,374,1
+ORD-00300,Leila Moradi,West,2024-05-12, 141.60 ,10
+ORD-00488,Nazanin Hosseini,North ,2024-01-16,172,5
+ORD-00305,Nazanin Moradi,WEST,2024-04-27,354.98,9
+ORD-00036,Kian Karimi,east,2024-05-06, 869.85 ,10
+ORD-00316,Mina Rostami, south,2024-09-22,869,11
+ORD-00400,Amir Rostami,SOUTH ,03/03/2024,$456.40,9
+ORD-00310,Nazanin Ahmadi,SOUTH ,11-Apr-2024,,6
+ORD-00277,Leila Rostami,SOUTH ,2024-09-19, 849.44 ,5
+ORD-00125,Amir Jafari,NORTH,08/31/2024,$653.20,9
+ORD-00143,Ali Ahmadi,East,04/25/2024, 167.37 ,9
+ORD-00111,Sara Karimi,WEST,05/20/2024,$355.11,7
+ORD-00324,Leila Moradi, south,25-May-2024,$728.92,3
+ORD-00333,Sara Karimi,South,10/21/2024, 403.46 ,2
+ORD-00394,Ali Rostami,west,2024-04-06, 809.16 ,6
+ORD-00468,Leila Jafari,North,2024-10-01,$71.58,10
+ORD-00108,Mina Rostami,NORTH,05/08/2024,$374.64,4
+ORD-00475,Nazanin Karimi, EAST,01/06/2024,809,6
+ORD-00013,Leila Moradi,West  ,10/13/2024,833.04,5
+ORD-00273,Sara Jafari,West  ,2024-05-24, 837.52 ,4
+ORD-00048,Ali Jafari,SOUTH ,05/19/2024,$737.95,9
+ORD-00204,Nazanin Ahmadi,West,07/14/2024,795,10
+ORD-00456,Nazanin Moradi,West  ,26-Mar-2024,245,5
+ORD-00120,Amir Jafari,North ,08/17/2024,646.31,9
+ORD-00022,Reza Ahmadi,east,3-Oct-2024,$136.66,9
+ORD-00403,Mina Rostami,East,14-Feb-2024,737,11
+ORD-00435,Mina Ahmadi, EAST,5-Oct-2024,593.71,9
+ORD-00084,Leila Karimi,East,03/05/2024, 254.30 ,unknown
+ORD-00131,Reza Ahmadi,West,2024-08-29,$366.26,7
+ORD-00476,Sara Moradi,east,28-Jun-2024,408,8
+ORD-00384,Amir Karimi,NORTH,2024-06-02,693,2
+ORD-00330,Amir Hosseini,South,8-Feb-2024,$476.58,10
+ORD-00230,Ali Moradi,north,08/11/2024, 459.29 ,9
+ORD-00303,Kian Jafari,north,30-May-2024,629,8
+ORD-00287,Leila Jafari,NORTH,08/19/2024,$188.69,4
+ORD-00124,Nazanin Hosseini,north,03/18/2024,607,6
+ORD-00034,Leila Jafari,north,23-Jun-2024,414.75,4
+ORD-00156,Leila Jafari,East,2024-07-27,256,2
+ORD-00005,Amir Karimi,South,20-Jan-2024,288.45,3
+ORD-00412,Ali Hosseini,North,10/07/2024, 358.58 ,5
+ORD-00020,Mina Karimi,south,28-Aug-2024,$183.77,3
+ORD-00220,Amir Rostami,South,2024-05-14,276,3
+ORD-00380,Sara Ahmadi,WEST,2024-10-23, 20.07 ,N/A
+ORD-00068,Sara Moradi,West  ,2024-01-29, 760.43 ,1
+ORD-00420,Ali Hosseini,East,15-Oct-2024,$696.11,5
+ORD-00357,Leila Ahmadi,SOUTH ,07/21/2024,490.09,8
+ORD-00150,Sara Jafari, EAST,03/26/2024,$640.76,11
+ORD-00225,Leila Rostami,south,01/07/2024,197,8
+ORD-00248,Amir Jafari, south,2024-06-23,$803.44,8
+ORD-00473,Mina Jafari,west,08/16/2024,798.93,1
+ORD-00152,Kian Ahmadi,North ,2-Oct-2024,$653.94,7
+ORD-00439,Kian Rostami,North ,2024-10-24,$674.86,10
+ORD-00318,Sara Karimi,South,30-Jul-2024, 527.12 ,10
+ORD-00494,Sara Jafari,West  ,2024-07-16, 637.23 ,-3
+ORD-00292,Leila Karimi, EAST,2024-05-18,420.38,4
+ORD-00234,Kian Hosseini,North,2024-01-18,396,2
+ORD-00011,Reza Jafari,East,15-Jan-2024,278.37,1
+ORD-00280,Leila Rostami,West,06/13/2024,783.01,11
+ORD-00072,Sara Karimi,North,24-Oct-2024,312,4
+ORD-00253,Sara Rostami,SOUTH ,2024-01-27,815.02,10
+ORD-00093,Mina Moradi,North ,19-Jun-2024,$20.05,2
+ORD-00466,Kian Hosseini,West  ,2024-02-07,158.33,1
+ORD-00350,Ali Ahmadi,south,20-Sep-2024,808.45,7
+ORD-00416,Leila Hosseini, south,01/01/2024,746.98,10
+ORD-00375,Mina Ahmadi,SOUTH ,07/11/2024,$709.88,10
+ORD-00401,Nazanin Ahmadi, EAST,8-Aug-2024, 232.12 ,3
+ORD-00193,Ali Karimi, south,10-May-2024,$271.59,4
+ORD-00258,Sara Hosseini,East,2-Aug-2024,71,0
+ORD-00180,Sara Ahmadi,east,20-Apr-2024, 600.57 ,7
+ORD-00340,Leila Karimi, EAST,06/01/2024, 751.68 ,11
+ORD-00073,Nazanin Karimi,North,2024-03-24, 693.92 ,unknown
+ORD-00196,Reza Jafari,East,04/21/2024, 56.70 ,7
+ORD-00484,Reza Karimi,West,01/28/2024,$291.44,6
+ORD-00344,Nazanin Rostami,north,08/23/2024, 424.62 ,10
+ORD-00138,Leila Ahmadi,south,10-Jul-2024,757,10
+ORD-00261,Reza Rostami,east,29-Mar-2024, 303.05 ,8
+ORD-00039,Reza Rostami, south,07/26/2024,488.32,11
+ORD-00463,Ali Moradi,,09/04/2024, 171.10 ,4
+ORD-00202,Leila Karimi,West  ,17-Sep-2024,638,11
+ORD-00309,Sara Karimi,West  ,2024-06-04,815,10
+ORD-00291,Nazanin Karimi,,01/29/2024, 208.23 ,unknown
+ORD-00449,Reza Hosseini,SOUTH ,1-Mar-2024, 285.41 ,8
+ORD-00190,Reza Ahmadi,south,2024-04-08,$759.04,8
+ORD-00252,Sara Jafari,north,24-Aug-2024,$851.32,2
+ORD-00113,Mina Ahmadi,West,31-Aug-2024,$348.50,4
+ORD-00438,Sara Hosseini,East,04/17/2024,236.39,11
+ORD-00184,Leila Karimi,east,06/29/2024,30.48,1
+ORD-00153,Mina Hosseini,NORTH,09/10/2024, 75.58 ,11
+ORD-00313,Reza Hosseini,South,2024-03-26, 448.89 ,11
+ORD-00326,Kian Jafari, North,16-Oct-2024, 877.92 ,10
+ORD-00192,Kian Jafari,east,06/19/2024,252.70,9
+ORD-00045,Kian Ahmadi,west,08/20/2024,382.15,1
+ORD-00445,Amir Jafari,East,23-Jul-2024,825.75,3
+ORD-00276,Amir Rostami,East,2024-04-18,$812.02,9
+ORD-00007,Kian Rostami,NORTH,04/22/2024,683.70,8
+ORD-00251,Sara Rostami, south,2024-08-11,$798.73,5
+ORD-00312,Leila Jafari,WEST,2-May-2024, 628.50 ,3
+ORD-00076,Ali Moradi,South,03/31/2024,$160.52,2
+ORD-00001,Leila Karimi,west,2024-07-08,,5
+ORD-00429,Sara Ahmadi,SOUTH ,7-Jul-2024, 768.58 ,9
+ORD-00392,Nazanin Hosseini,East,15-Jun-2024,$389.07,2
+ORD-00433,Nazanin Hosseini,,4-Jul-2024,283.29,5
+ORD-00069,Leila Jafari,South,12-Sep-2024,423.12,10
+ORD-00168,Sara Karimi,SOUTH ,06/30/2024, 25.98 ,11
+ORD-00367,Leila Hosseini,east,18-Jan-2024,$646.17,2
+ORD-00346,,NORTH,20-Jan-2024, 331.22 ,5
+ORD-00399,Kian Hosseini,West  ,01/23/2024,866,3
+ORD-00186,Mina Rostami,WEST,09/03/2024,470,8
+ORD-00349,Nazanin Rostami,WEST,08/25/2024,$429.77,4
+ORD-00212,Reza Karimi,north,25-Sep-2024,439.20,3
+ORD-00415,Mina Karimi,west,07/16/2024, 815.95 ,11
+ORD-00197,,South,2024-01-21,384,1
+ORD-00176,Mina Ahmadi,West  ,13-Jun-2024,179.99,8
