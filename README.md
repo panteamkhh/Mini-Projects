@@ -62,7 +62,17 @@ mini-projects/
 │       ├── test_validators.py
 │       └── README.md
 │
-└── data-basics/          # Days 11-20 (in progress)
+└── data-basics/          # Days 11-20: working with real data
+    ├── 11-pandas-fundamentals/
+    ├── 12-data-cleaning-pipeline/
+    ├── 13-exploratory-data-analysis/
+    ├── 14-data-visualization/
+    ├── 15-sql-for-analysts/
+    ├── 16-excel-reporting-automation/
+    ├── 17-statistical-analysis/
+    ├── 18-insight-report-generator/
+    ├── 19-interactive-dashboard/
+    └── 20-capstone-case-study/
 ```
 
 ## Design conventions used across the repo
