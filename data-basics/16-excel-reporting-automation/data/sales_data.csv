@@ -1,0 +1,401 @@
+order_id,order_date,region,product_category,quantity,revenue
+ORD-00103,2024-01-01,South,Furniture,6,834.91
+ORD-00289,2024-01-02,West,Electronics,6,475.49
+ORD-00370,2024-01-02,South,Office Supplies,5,71.35
+ORD-00041,2024-01-02,North,Electronics,7,613.86
+ORD-00092,2024-01-03,West,Apparel,7,147.63
+ORD-00314,2024-01-03,North,Furniture,2,198.03
+ORD-00355,2024-01-04,South,Apparel,1,15.25
+ORD-00009,2024-01-05,West,Electronics,6,495.33
+ORD-00328,2024-01-08,West,Furniture,1,101.41
+ORD-00293,2024-01-08,West,Furniture,3,371.37
+ORD-00012,2024-01-08,East,Electronics,4,362.96
+ORD-00254,2024-01-10,West,Electronics,5,447.66
+ORD-00107,2024-01-12,West,Furniture,5,661.88
+ORD-00097,2024-01-13,West,Electronics,4,301.95
+ORD-00400,2024-01-14,East,Office Supplies,7,66.43
+ORD-00018,2024-01-17,South,Electronics,2,149.23
+ORD-00021,2024-01-17,South,Electronics,6,314.02
+ORD-00282,2024-01-20,West,Electronics,2,108.16
+ORD-00249,2024-01-21,West,Electronics,5,457.16
+ORD-00180,2024-01-21,North,Electronics,3,177.18
+ORD-00244,2024-01-22,East,Furniture,7,1124.65
+ORD-00386,2024-01-22,West,Electronics,3,250.9
+ORD-00084,2024-01-22,North,Furniture,6,868.57
+ORD-00211,2024-01-22,South,Electronics,4,246.32
+ORD-00093,2024-01-23,South,Office Supplies,3,33.28
+ORD-00280,2024-01-24,North,Office Supplies,4,43.01
+ORD-00207,2024-01-26,South,Apparel,1,24.2
+ORD-00098,2024-01-26,West,Office Supplies,6,101.79
+ORD-00183,2024-01-27,South,Electronics,3,183.64
+ORD-00296,2024-01-27,North,Electronics,3,199.23
+ORD-00015,2024-01-27,West,Office Supplies,3,43.15
+ORD-00277,2024-01-27,West,Office Supplies,2,27.98
+ORD-00062,2024-01-28,West,Furniture,2,185.24
+ORD-00144,2024-01-28,West,Office Supplies,7,94.42
+ORD-00245,2024-01-28,North,Electronics,7,574.9
+ORD-00332,2024-01-29,West,Apparel,6,94.39
+ORD-00158,2024-01-30,East,Office Supplies,6,80.24
+ORD-00187,2024-01-31,East,Apparel,3,70.06
+ORD-00164,2024-01-31,East,Electronics,3,284.29
+ORD-00376,2024-02-01,West,Office Supplies,7,98.72
+ORD-00134,2024-02-02,South,Apparel,6,144.42
+ORD-00364,2024-02-02,North,Office Supplies,3,45.89
+ORD-00398,2024-02-03,South,Furniture,3,452.59
+ORD-00006,2024-02-04,East,Furniture,5,708.54
+ORD-00397,2024-02-04,South,Furniture,1,146.46
+ORD-00338,2024-02-05,West,Electronics,2,143.25
+ORD-00091,2024-02-05,North,Office Supplies,1,11.36
+ORD-00394,2024-02-09,North,Electronics,5,412.97
+ORD-00163,2024-02-09,North,Electronics,3,250.32
+ORD-00075,2024-02-09,South,Apparel,1,21.9
+ORD-00333,2024-02-12,West,Electronics,4,253.23
+ORD-00279,2024-02-15,North,Office Supplies,6,81.77
+ORD-00152,2024-02-15,West,Office Supplies,7,100.4
+ORD-00345,2024-02-16,South,Office Supplies,2,31.81
+ORD-00141,2024-02-16,West,Apparel,6,85.24
+ORD-00181,2024-02-17,West,Office Supplies,7,115.84
+ORD-00101,2024-02-17,North,Electronics,5,359.98
+ORD-00019,2024-02-18,West,Electronics,3,258.43
+ORD-00050,2024-02-20,East,Apparel,5,104.49
+ORD-00390,2024-02-21,South,Electronics,3,167.44
+ORD-00175,2024-02-21,South,Furniture,6,708.33
+ORD-00146,2024-02-21,North,Electronics,1,64.85
+ORD-00374,2024-02-22,North,Furniture,2,324.3
+ORD-00118,2024-02-22,East,Furniture,7,933.27
+ORD-00304,2024-02-23,North,Office Supplies,2,25.25
+ORD-00073,2024-02-23,North,Electronics,5,338.23
+ORD-00165,2024-02-24,South,Apparel,2,41.82
+ORD-00070,2024-02-24,North,Apparel,1,14.54
+ORD-00326,2024-02-26,North,Electronics,2,150.75
+ORD-00026,2024-02-26,South,Electronics,6,353.94
+ORD-00344,2024-02-26,West,Electronics,6,355.77
+ORD-00063,2024-02-26,East,Apparel,3,66.46
+ORD-00136,2024-02-28,East,Apparel,7,144.04
+ORD-00036,2024-02-29,North,Apparel,3,72.9
+ORD-00161,2024-03-01,East,Apparel,1,17.16
+ORD-00215,2024-03-03,South,Apparel,2,37.14
+ORD-00316,2024-03-03,East,Furniture,1,141.81
+ORD-00348,2024-03-03,West,Furniture,6,901.9
+ORD-00269,2024-03-04,East,Furniture,4,420.09
+ORD-00334,2024-03-06,West,Apparel,1,23.53
+ORD-00145,2024-03-06,North,Electronics,1,87.96
+ORD-00381,2024-03-07,West,Office Supplies,4,68.69
+ORD-00022,2024-03-08,East,Apparel,3,71.92
+ORD-00035,2024-03-09,North,Apparel,5,94.91
+ORD-00378,2024-03-09,North,Furniture,1,131.97
+ORD-00221,2024-03-09,North,Apparel,3,66.49
+ORD-00177,2024-03-11,East,Apparel,6,131.93
+ORD-00195,2024-03-11,South,Apparel,2,28.46
+ORD-00229,2024-03-11,East,Furniture,3,293.76
+ORD-00122,2024-03-12,West,Apparel,3,55.25
+ORD-00077,2024-03-12,South,Electronics,4,309.93
+ORD-00120,2024-03-14,West,Furniture,1,142.15
+ORD-00199,2024-03-16,West,Office Supplies,7,105.19
+ORD-00201,2024-03-17,North,Furniture,2,269.69
+ORD-00227,2024-03-19,West,Electronics,2,157.35
+ORD-00027,2024-03-19,West,Electronics,7,527.08
+ORD-00109,2024-03-20,South,Furniture,2,211.45
+ORD-00192,2024-03-22,West,Office Supplies,2,32.26
+ORD-00139,2024-03-24,East,Apparel,2,32.43
+ORD-00285,2024-03-24,West,Office Supplies,4,50.99
+ORD-00156,2024-03-24,South,Office Supplies,5,50.56
+ORD-00321,2024-03-25,South,Apparel,6,135.16
+ORD-00219,2024-03-27,North,Furniture,6,606.28
+ORD-00135,2024-03-27,North,Office Supplies,5,52.07
+ORD-00123,2024-03-27,West,Furniture,5,740.53
+ORD-00372,2024-03-27,North,Electronics,2,160.02
+ORD-00121,2024-03-28,North,Electronics,7,509.34
+ORD-00243,2024-03-29,North,Apparel,4,66.95
+ORD-00053,2024-03-30,South,Office Supplies,7,95.43
+ORD-00209,2024-04-01,North,Office Supplies,5,46.92
+ORD-00335,2024-04-02,West,Furniture,7,812.06
+ORD-00179,2024-04-02,East,Apparel,5,120.4
+ORD-00368,2024-04-04,East,Electronics,4,312.79
+ORD-00029,2024-04-05,South,Office Supplies,4,58.78
+ORD-00241,2024-04-06,North,Electronics,5,388.83
+ORD-00251,2024-04-06,East,Apparel,7,143.16
+ORD-00298,2024-04-07,East,Electronics,3,177.18
+ORD-00385,2024-04-07,East,Apparel,5,70.61
+ORD-00395,2024-04-08,North,Electronics,2,105.17
+ORD-00352,2024-04-10,South,Electronics,4,212.53
+ORD-00071,2024-04-10,East,Furniture,5,584.02
+ORD-00216,2024-04-11,West,Office Supplies,2,22.47
+ORD-00346,2024-04-11,East,Electronics,5,323.31
+ORD-00040,2024-04-11,East,Electronics,2,109.33
+ORD-00290,2024-04-12,South,Furniture,2,299.59
+ORD-00360,2024-04-13,South,Apparel,3,72.46
+ORD-00147,2024-04-14,South,Office Supplies,7,89.72
+ORD-00044,2024-04-19,East,Furniture,6,601.57
+ORD-00013,2024-04-19,West,Electronics,3,270.51
+ORD-00337,2024-04-19,North,Apparel,7,134.55
+ORD-00168,2024-04-20,North,Apparel,6,124.32
+ORD-00208,2024-04-20,East,Office Supplies,6,79.08
+ORD-00167,2024-04-21,North,Furniture,4,396.81
+ORD-00202,2024-04-21,North,Furniture,2,301.44
+ORD-00117,2024-04-23,West,Apparel,3,76.38
+ORD-00331,2024-04-23,West,Furniture,4,567.31
+ORD-00184,2024-04-26,North,Electronics,6,489.2
+ORD-00114,2024-04-26,East,Furniture,2,301.66
+ORD-00297,2024-04-27,North,Furniture,5,652.02
+ORD-00236,2024-04-28,North,Furniture,7,906.36
+ORD-00265,2024-04-28,West,Furniture,6,587.35
+ORD-00210,2024-04-28,West,Furniture,5,668.44
+ORD-00268,2024-04-29,West,Electronics,6,331.19
+ORD-00230,2024-04-29,West,Furniture,5,463.06
+ORD-00033,2024-04-29,South,Apparel,6,87.09
+ORD-00341,2024-05-01,North,Apparel,4,103.68
+ORD-00383,2024-05-04,South,Electronics,4,279.23
+ORD-00382,2024-05-04,East,Furniture,4,569.62
+ORD-00204,2024-05-05,East,Apparel,5,79.89
+ORD-00172,2024-05-06,West,Apparel,7,174.15
+ORD-00008,2024-05-07,West,Electronics,3,159.3
+ORD-00375,2024-05-07,West,Electronics,7,386.31
+ORD-00203,2024-05-08,South,Electronics,1,59.41
+ORD-00140,2024-05-08,North,Office Supplies,7,68.77
+ORD-00274,2024-05-08,North,Office Supplies,2,29.07
+ORD-00112,2024-05-08,West,Furniture,6,538.02
+ORD-00260,2024-05-09,North,Office Supplies,7,118.28
+ORD-00238,2024-05-09,North,Furniture,4,378.86
+ORD-00287,2024-05-09,West,Electronics,3,167.14
+ORD-00330,2024-05-14,East,Apparel,1,14.22
+ORD-00155,2024-05-14,South,Office Supplies,3,49.13
+ORD-00082,2024-05-15,South,Apparel,5,114.19
+ORD-00342,2024-05-17,West,Apparel,7,177.94
+ORD-00217,2024-05-17,West,Furniture,6,851.96
+ORD-00309,2024-05-17,West,Electronics,7,628.21
+ORD-00205,2024-05-18,North,Apparel,2,50.84
+ORD-00263,2024-05-18,West,Apparel,4,94.26
+ORD-00149,2024-05-19,West,Furniture,4,398.3
+ORD-00052,2024-05-20,West,Office Supplies,5,59.52
+ORD-00096,2024-05-21,South,Electronics,3,267.98
+ORD-00067,2024-05-21,North,Office Supplies,4,48.56
+ORD-00363,2024-05-23,West,Apparel,3,51.53
+ORD-00038,2024-05-24,West,Electronics,3,178.33
+ORD-00322,2024-05-25,East,Apparel,3,44.19
+ORD-00220,2024-05-26,East,Office Supplies,3,41.93
+ORD-00392,2024-05-27,North,Furniture,2,301.95
+ORD-00047,2024-05-28,West,Apparel,6,97.04
+ORD-00048,2024-05-28,North,Apparel,5,123.25
+ORD-00185,2024-05-29,East,Electronics,7,558.12
+ORD-00231,2024-05-29,North,Furniture,1,127.48
+ORD-00056,2024-05-30,East,Office Supplies,7,113.53
+ORD-00299,2024-06-01,South,Office Supplies,2,26.72
+ORD-00281,2024-06-02,North,Electronics,6,479.67
+ORD-00307,2024-06-02,East,Electronics,7,636.59
+ORD-00004,2024-06-06,North,Electronics,2,164.18
+ORD-00150,2024-06-07,South,Electronics,4,291.65
+ORD-00259,2024-06-08,North,Furniture,7,697.82
+ORD-00286,2024-06-08,North,Electronics,6,355.27
+ORD-00206,2024-06-08,West,Apparel,1,15.04
+ORD-00031,2024-06-08,East,Office Supplies,2,24.15
+ORD-00272,2024-06-08,West,Furniture,1,96.89
+ORD-00343,2024-06-10,West,Electronics,4,238.49
+ORD-00350,2024-06-12,North,Furniture,2,244.05
+ORD-00312,2024-06-13,West,Office Supplies,5,52.55
+ORD-00248,2024-06-14,West,Electronics,5,395.18
+ORD-00359,2024-06-14,East,Electronics,2,166.31
+ORD-00384,2024-06-15,East,Office Supplies,7,87.48
+ORD-00399,2024-06-15,South,Furniture,4,606.31
+ORD-00124,2024-06-16,East,Furniture,1,119.52
+ORD-00327,2024-06-17,East,Electronics,2,121.49
+ORD-00011,2024-06-18,North,Apparel,2,50.25
+ORD-00083,2024-06-19,South,Apparel,4,85.67
+ORD-00119,2024-06-20,North,Electronics,4,346.1
+ORD-00247,2024-06-21,South,Furniture,6,658.55
+ORD-00222,2024-06-22,West,Apparel,5,94.54
+ORD-00320,2024-06-22,North,Office Supplies,7,66.32
+ORD-00214,2024-06-22,East,Office Supplies,2,29.99
+ORD-00389,2024-06-23,West,Electronics,5,437.6
+ORD-00303,2024-06-24,South,Electronics,3,195.31
+ORD-00159,2024-06-28,South,Electronics,1,73.42
+ORD-00278,2024-06-29,East,Furniture,5,800.43
+ORD-00129,2024-06-30,North,Apparel,7,141.63
+ORD-00358,2024-07-02,East,Electronics,2,135.98
+ORD-00295,2024-07-02,West,Apparel,1,15.48
+ORD-00235,2024-07-02,North,Office Supplies,5,85.88
+ORD-00191,2024-07-02,West,Apparel,7,130.13
+ORD-00128,2024-07-02,West,Office Supplies,6,56.08
+ORD-00069,2024-07-03,West,Furniture,7,749.66
+ORD-00310,2024-07-06,West,Furniture,7,969.89
+ORD-00198,2024-07-06,South,Office Supplies,3,51.49
+ORD-00266,2024-07-06,South,Apparel,2,41.69
+ORD-00025,2024-07-08,North,Furniture,3,341.55
+ORD-00240,2024-07-08,West,Electronics,2,136.02
+ORD-00104,2024-07-09,West,Apparel,7,175.02
+ORD-00007,2024-07-12,North,Electronics,3,270.18
+ORD-00137,2024-07-12,West,Electronics,1,60.59
+ORD-00255,2024-07-14,South,Office Supplies,1,14.0
+ORD-00001,2024-07-15,South,Office Supplies,7,101.97
+ORD-00186,2024-07-15,East,Furniture,7,1064.09
+ORD-00160,2024-07-15,West,Office Supplies,5,48.6
+ORD-00065,2024-07-15,South,Office Supplies,3,40.57
+ORD-00323,2024-07-19,East,Office Supplies,7,75.7
+ORD-00388,2024-07-20,West,Electronics,1,93.03
+ORD-00301,2024-07-22,South,Furniture,5,577.01
+ORD-00387,2024-07-22,West,Furniture,1,126.29
+ORD-00046,2024-07-23,North,Electronics,1,62.33
+ORD-00169,2024-07-23,South,Apparel,7,117.21
+ORD-00284,2024-07-24,South,Furniture,6,541.11
+ORD-00002,2024-07-25,South,Office Supplies,3,49.67
+ORD-00162,2024-07-29,East,Electronics,5,409.97
+ORD-00365,2024-07-30,North,Electronics,4,317.94
+ORD-00060,2024-07-31,West,Office Supplies,2,20.26
+ORD-00178,2024-08-02,West,Apparel,5,84.7
+ORD-00267,2024-08-02,North,Furniture,3,328.0
+ORD-00396,2024-08-06,North,Office Supplies,1,12.23
+ORD-00232,2024-08-07,North,Electronics,3,162.45
+ORD-00059,2024-08-07,West,Apparel,5,107.0
+ORD-00306,2024-08-08,West,Office Supplies,4,58.57
+ORD-00197,2024-08-10,North,Apparel,5,96.43
+ORD-00126,2024-08-12,South,Furniture,6,796.08
+ORD-00218,2024-08-14,South,Electronics,4,349.16
+ORD-00080,2024-08-14,South,Furniture,4,534.39
+ORD-00010,2024-08-14,East,Electronics,3,174.95
+ORD-00176,2024-08-16,South,Furniture,7,677.76
+ORD-00089,2024-08-16,South,Apparel,1,14.36
+ORD-00226,2024-08-17,South,Office Supplies,7,118.06
+ORD-00088,2024-08-18,North,Furniture,7,1116.82
+ORD-00233,2024-08-18,East,Office Supplies,4,68.83
+ORD-00246,2024-08-18,West,Electronics,1,83.27
+ORD-00291,2024-08-19,North,Furniture,1,146.91
+ORD-00153,2024-08-20,East,Furniture,4,452.55
+ORD-00271,2024-08-20,North,Electronics,7,595.8
+ORD-00292,2024-08-21,East,Electronics,5,293.03
+ORD-00090,2024-08-24,East,Furniture,2,222.73
+ORD-00380,2024-08-24,East,Office Supplies,6,90.75
+ORD-00288,2024-08-25,South,Apparel,5,94.2
+ORD-00349,2024-08-25,West,Electronics,3,199.75
+ORD-00362,2024-08-25,West,Office Supplies,3,49.86
+ORD-00142,2024-08-26,West,Electronics,1,73.47
+ORD-00315,2024-08-26,South,Office Supplies,1,16.76
+ORD-00034,2024-08-30,North,Office Supplies,4,62.02
+ORD-00212,2024-08-30,West,Electronics,7,657.25
+ORD-00373,2024-08-30,South,Office Supplies,7,92.31
+ORD-00110,2024-08-31,North,Apparel,3,55.05
+ORD-00190,2024-08-31,South,Office Supplies,1,15.26
+ORD-00116,2024-09-01,West,Electronics,2,188.96
+ORD-00099,2024-09-01,South,Office Supplies,4,46.62
+ORD-00347,2024-09-02,North,Electronics,5,274.57
+ORD-00066,2024-09-03,South,Office Supplies,2,32.4
+ORD-00166,2024-09-04,South,Furniture,1,163.53
+ORD-00058,2024-09-04,North,Office Supplies,1,11.3
+ORD-00081,2024-09-04,West,Apparel,3,72.68
+ORD-00317,2024-09-06,South,Office Supplies,7,69.49
+ORD-00302,2024-09-06,West,Electronics,5,419.22
+ORD-00225,2024-09-08,North,Apparel,6,132.4
+ORD-00189,2024-09-08,West,Electronics,4,321.24
+ORD-00028,2024-09-09,South,Electronics,2,125.96
+ORD-00024,2024-09-10,North,Office Supplies,1,15.63
+ORD-00224,2024-09-11,North,Electronics,4,274.35
+ORD-00086,2024-09-11,East,Apparel,6,86.63
+ORD-00325,2024-09-12,East,Office Supplies,4,59.02
+ORD-00351,2024-09-13,East,Furniture,3,464.53
+ORD-00276,2024-09-14,West,Furniture,5,473.03
+ORD-00250,2024-09-16,West,Office Supplies,7,114.37
+ORD-00174,2024-09-18,East,Apparel,2,36.65
+ORD-00357,2024-09-19,East,Office Supplies,1,9.75
+ORD-00079,2024-09-19,East,Office Supplies,3,48.11
+ORD-00105,2024-09-20,East,Electronics,2,134.19
+ORD-00061,2024-09-21,North,Furniture,2,250.05
+ORD-00308,2024-09-21,West,Electronics,1,85.57
+ORD-00305,2024-09-21,South,Apparel,4,63.71
+ORD-00113,2024-09-21,West,Furniture,6,982.07
+ORD-00262,2024-09-22,East,Apparel,1,24.44
+ORD-00064,2024-09-23,North,Furniture,1,120.36
+ORD-00239,2024-09-23,East,Electronics,6,554.97
+ORD-00336,2024-09-25,West,Electronics,6,428.86
+ORD-00102,2024-09-25,South,Electronics,2,132.69
+ORD-00257,2024-09-28,East,Office Supplies,2,31.42
+ORD-00049,2024-09-28,West,Office Supplies,7,98.9
+ORD-00200,2024-09-29,West,Electronics,7,505.08
+ORD-00329,2024-09-29,South,Office Supplies,3,35.42
+ORD-00039,2024-10-02,South,Office Supplies,1,12.54
+ORD-00138,2024-10-03,South,Electronics,3,262.82
+ORD-00371,2024-10-06,North,Electronics,5,450.32
+ORD-00005,2024-10-06,West,Electronics,5,461.91
+ORD-00106,2024-10-06,West,Electronics,7,360.14
+ORD-00133,2024-10-07,South,Electronics,4,226.48
+ORD-00054,2024-10-07,West,Apparel,4,75.71
+ORD-00130,2024-10-08,South,Furniture,5,482.97
+ORD-00127,2024-10-14,West,Electronics,6,476.81
+ORD-00318,2024-10-16,South,Furniture,6,806.07
+ORD-00196,2024-10-18,South,Apparel,4,67.34
+ORD-00353,2024-10-18,West,Furniture,5,783.13
+ORD-00020,2024-10-19,North,Electronics,2,179.26
+ORD-00068,2024-10-19,East,Apparel,5,128.99
+ORD-00108,2024-10-19,East,Furniture,3,455.57
+ORD-00023,2024-10-20,North,Electronics,6,420.02
+ORD-00182,2024-10-22,North,Apparel,7,105.01
+ORD-00354,2024-10-25,South,Furniture,2,232.92
+ORD-00234,2024-10-26,West,Electronics,1,61.55
+ORD-00356,2024-10-26,West,Electronics,6,475.08
+ORD-00003,2024-10-27,North,Electronics,5,335.59
+ORD-00111,2024-10-28,North,Electronics,6,533.26
+ORD-00237,2024-10-28,South,Electronics,6,487.0
+ORD-00125,2024-10-28,West,Furniture,7,925.88
+ORD-00095,2024-10-30,West,Electronics,6,335.16
+ORD-00115,2024-11-01,East,Apparel,5,108.91
+ORD-00256,2024-11-04,East,Office Supplies,2,33.6
+ORD-00391,2024-11-05,East,Office Supplies,1,13.52
+ORD-00213,2024-11-06,North,Furniture,2,304.57
+ORD-00016,2024-11-07,North,Electronics,4,262.32
+ORD-00361,2024-11-07,West,Apparel,7,179.7
+ORD-00188,2024-11-07,South,Apparel,6,112.55
+ORD-00171,2024-11-09,South,Apparel,1,14.05
+ORD-00151,2024-11-10,South,Furniture,5,707.78
+ORD-00131,2024-11-10,North,Office Supplies,3,31.97
+ORD-00074,2024-11-12,North,Furniture,6,613.05
+ORD-00223,2024-11-12,South,Furniture,6,654.52
+ORD-00366,2024-11-15,West,Electronics,6,381.07
+ORD-00014,2024-11-15,South,Office Supplies,7,113.17
+ORD-00051,2024-11-15,East,Office Supplies,3,45.21
+ORD-00148,2024-11-16,South,Electronics,3,278.24
+ORD-00087,2024-11-17,North,Furniture,7,767.27
+ORD-00300,2024-11-17,East,Apparel,3,75.52
+ORD-00340,2024-11-17,West,Furniture,4,643.93
+ORD-00319,2024-11-19,West,Apparel,5,82.9
+ORD-00017,2024-11-19,East,Office Supplies,3,42.12
+ORD-00045,2024-11-19,North,Office Supplies,4,51.21
+ORD-00283,2024-11-20,South,Apparel,5,127.13
+ORD-00037,2024-11-21,North,Office Supplies,5,83.05
+ORD-00173,2024-11-22,East,Electronics,4,369.66
+ORD-00367,2024-11-24,North,Apparel,7,114.29
+ORD-00076,2024-11-25,East,Office Supplies,1,16.63
+ORD-00393,2024-11-26,East,Office Supplies,4,63.92
+ORD-00369,2024-11-27,West,Electronics,6,384.95
+ORD-00313,2024-11-29,South,Electronics,4,341.06
+ORD-00294,2024-11-30,South,Furniture,1,164.21
+ORD-00253,2024-12-02,South,Furniture,7,847.67
+ORD-00154,2024-12-03,North,Electronics,6,571.24
+ORD-00379,2024-12-04,East,Office Supplies,6,56.57
+ORD-00242,2024-12-06,East,Furniture,4,458.9
+ORD-00143,2024-12-06,West,Furniture,2,267.39
+ORD-00252,2024-12-09,South,Electronics,6,444.59
+ORD-00324,2024-12-10,West,Office Supplies,6,79.01
+ORD-00261,2024-12-11,West,Apparel,6,112.46
+ORD-00273,2024-12-11,South,Furniture,1,110.16
+ORD-00094,2024-12-11,South,Apparel,2,31.51
+ORD-00043,2024-12-12,South,Office Supplies,4,49.34
+ORD-00264,2024-12-13,East,Apparel,6,125.49
+ORD-00055,2024-12-14,West,Office Supplies,6,94.66
+ORD-00042,2024-12-14,South,Apparel,7,100.28
+ORD-00132,2024-12-14,South,Apparel,3,61.17
+ORD-00275,2024-12-14,South,Office Supplies,3,48.33
+ORD-00030,2024-12-15,South,Furniture,1,144.31
+ORD-00339,2024-12-15,South,Furniture,5,634.02
+ORD-00078,2024-12-17,West,Apparel,1,21.63
+ORD-00057,2024-12-19,West,Office Supplies,3,36.56
+ORD-00072,2024-12-21,East,Furniture,6,965.43
+ORD-00193,2024-12-23,West,Electronics,1,56.91
+ORD-00085,2024-12-24,West,Office Supplies,4,43.84
+ORD-00228,2024-12-25,West,Furniture,6,740.76
+ORD-00032,2024-12-25,West,Office Supplies,1,16.76
+ORD-00258,2024-12-26,North,Electronics,3,266.94
+ORD-00194,2024-12-26,South,Office Supplies,3,28.88
+ORD-00311,2024-12-27,North,Electronics,7,547.19
+ORD-00100,2024-12-27,West,Apparel,4,73.71
+ORD-00170,2024-12-28,East,Furniture,5,650.87
+ORD-00270,2024-12-29,South,Furniture,1,137.95
+ORD-00377,2024-12-29,North,Furniture,4,581.24
+ORD-00157,2024-12-30,South,Furniture,5,615.79
